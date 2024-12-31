@@ -10,7 +10,7 @@ app.get('/one', (req, res) => {
 app.get('/two', (req, res) => {
     res.clearCookie('name')
     res.clearCookie('age')
-    
+
     res.end('Cooki Clear successful')
 })
 
